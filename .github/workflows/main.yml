@@ -97,7 +97,7 @@ jobs:
       # Это готовый воркфлоу для установки Node.js на раннер
       uses: actions/setup-node@v3
       with:
-        # Это параметр воркфлоу, указывающий нужную версию Node.js
+        # Это параметр workflows, указывающий нужную версию Node.js
         node-version: 18
 
     - name: Install dependencies
